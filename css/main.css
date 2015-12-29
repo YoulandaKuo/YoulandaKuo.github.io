@@ -1,0 +1,209 @@
+/***********************************
+GENERAL
+************************************/
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#wrapper{
+    max-width: 940px;
+    margin:0 auto;
+    padding: 0 5%;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+}
+
+h3{
+    margin: 0 0 0.25em 0;
+}
+
+/***********************************
+HEADING
+************************************/
+
+header{
+    float: left;
+    width: 100%;
+    margin: 0 0 15px 0;
+    padding: 12px 0 32px;
+}
+
+#logo{
+    text-align: center;
+    margin:4px; 
+}
+
+h1{
+    font-family: 'Source Sans Pro', sans-serif;
+    margin:0 ;
+    font-weight: 600;
+    font-size: 1.5em;
+}
+
+h2{
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+    font-size: 1em;
+}
+
+
+
+/***********************************
+NAVIGATION
+************************************/
+
+nav{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0 10px;
+    padding: 0;
+}
+
+nav li{
+    display: inline-block;
+}
+
+nav a{
+    padding: 6px 8px;
+}
+
+/***********************************
+FOOTER
+************************************/
+
+footer{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 0.75em;
+    text-align: center;
+    padding: 50px 0 12px;
+    clear: both;
+}
+
+.social-icon{
+    width: 20px;
+    height: 20px;
+    margin: 0 2px;
+}
+
+/***********************************
+PAGE : PORTFOLIO
+************************************/
+
+#gallery{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#gallery li{
+    float: left;
+    width: 45%;
+    margin: 2.5%;
+    background-color: #f0f0f0;
+}
+
+#gallery li p{
+    margin: 0;
+    padding: 5%;
+    color: #999;
+    font-size: 0.75em;
+}
+
+
+
+/***********************************
+PAGE : ABOUT
+************************************/
+
+.profile-photo{
+    display: block;
+    max-height: 150px;
+    margin: 0 auto 20px;
+    border-radius: 100px;
+}
+
+
+
+/***********************************
+PAGE : CONTACT
+************************************/
+
+.contact-detail{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 0.9em;
+}
+
+.contact-detail a{
+    display: block;
+    min-height: 20px;
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    padding: 0 0 0 30px;
+    margin: 0 0 2px;
+}
+
+.contact-detail li.phone a{
+    background-image: url('../img/contact_icon/icon_phone.png')
+}
+
+.contact-detail li.mail a{
+    background-image: url('../img/contact_icon/icon_mail.png')
+}
+
+.contact-detail li.twitter a{
+    background-image: url('../img/contact_icon/icon_twitter.png')
+}
+
+/***********************************
+COLORS
+************************************/
+
+/* site body */
+body{
+    background-color: white;
+    color: #000000 ;
+}
+
+/* yellow header */
+header{
+    background-color: yellow;
+}
+
+/* nav background on mobile */
+nav{
+    background-color: yellow;
+}
+
+/* logo text */
+h1, h2{
+    color: black
+}
+
+/* links */
+a{
+    color: black;
+}
+
+/* nav links */
+nav a, nav visited{
+    color: #000;
+}
+
+/* selected nav links */
+nav a.selected, nav a:hover{
+    text-decoration: line-through;
+}
